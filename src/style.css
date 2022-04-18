@@ -1,0 +1,57 @@
+:root{
+    --main-bg-color: #1c1917;
+    --off-black: #292524;
+    --gray: #44403c;
+    --white: #fafaf9;
+    --off-white: #d4d4d4;
+}
+body{
+    height: 100vh;
+    text-align: center;
+}
+header{
+    min-height: 15%;
+    background-color: var(--main-bg-color);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+main{
+    height: 85%;
+    background: url('./assets/background.jpg'), no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    margin-bottom: 1rem;
+}
+button{
+    font-size: 2rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    color: var(--off-white);
+    background-color: var(--main-bg-color);
+    border: 3px solid var(--off-white);
+    border-radius: 25%;
+    margin: 0 1rem 0 1rem;
+}
+button:hover{
+    color: var(--white);
+    border: 3px solid var(--white);
+}
+button:active{
+    color: var(--off-white);
+    border: 3px solid var(--off-white);
+    border-style: inset;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
