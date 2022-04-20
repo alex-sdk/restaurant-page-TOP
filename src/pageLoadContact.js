@@ -7,7 +7,7 @@ export default function loadContact() {
     title.innerText = "CONTACT INFO";
     title.classList.add("title")
     const email = document.createElement("div");
-    email.innerText = "kickinchicken@email.com"
+    email.innerText = "kickinchicken @email.com"
     const street = document.createElement("div");
     street.innerText = "7401 San Pedro Dr NE";
     const city = document.createElement("div");
